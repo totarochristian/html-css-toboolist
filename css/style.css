@@ -11,13 +11,16 @@
     the elements that will change are the tags (with different 
     text and colors) and the check/cross at the start
 */
+
 /* Basic reset to have the control of margin, padding and real size of all 
 the elements */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Archivo Narrow', sans-serif;
 }
+
 /* General settings */
 body{
     background-color: #f7f8fb;
@@ -29,6 +32,8 @@ header, footer{
 main{
     background-color: #fffeff;
     color: #47474f;
+    font-size: 1.5em;
+    font-weight: 400;
 }
 /* Tags settings */
 .tag{
@@ -51,4 +56,23 @@ main{
 }
 .tagGreen{
     background-color: #b2c928;
+}
+
+/* Header */
+#divLogo{
+    margin-left: 30px;
+    padding: 15px 0 15px 0;
+    margin-bottom: 20px;
+}
+#divLogo h1{
+    display: inline-block;
+    font-weight: 700;
+    font-size: 3em;
+    vertical-align: middle;
+}
+#divLogo img{
+    height: 64px;
+    width: 64px;
+    height: 4em;
+    vertical-align: middle;
 }
