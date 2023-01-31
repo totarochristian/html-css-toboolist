@@ -1,10 +1,3 @@
-/* Basic reset to have the control of margin, padding and real size of all 
-the elements */
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 /* 
     Graphics palette 
         Header bg, form bg: #fffeff
@@ -18,3 +11,44 @@ the elements */
     the elements that will change are the tags (with different 
     text and colors) and the check/cross at the start
 */
+/* Basic reset to have the control of margin, padding and real size of all 
+the elements */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* General settings */
+body{
+    background-color: #f7f8fb;
+}
+header, footer{
+    background-color: #fffeff;
+    color: #000000;
+}
+main{
+    background-color: #fffeff;
+    color: #47474f;
+}
+/* Tags settings */
+.tag{
+    color: white;
+}
+.tagBlue{
+    background-color: #49acf2;
+}
+.tagViolet{
+    background-color: #9c72e3;
+}
+.tagTeal{
+    background-color: #68bea9;
+}
+.tagOrange{
+    background-color: #f49c37;
+}
+.tagPurple{
+    background-color: #dc62a5;
+}
+.tagGreen{
+    background-color: #b2c928;
+}
