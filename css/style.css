@@ -1,3 +1,20 @@
-body{
-    background-color: yellow;
+/* Basic reset to have the control of margin, padding and real size of all 
+the elements */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+/* 
+    Graphics palette 
+        Header bg, form bg: #fffeff
+        Header color : #000000
+        Body bg : #f7f8fb
+        Button bg : #49acf2
+        Tag colors: #9c72e3 #68bea9 #f49c37 #dc62a5 #b2c928
+        Main form text color: #47474f
+    
+    All the sections of the main "form" have the same layout, 
+    the elements that will change are the tags (with different 
+    text and colors) and the check/cross at the start
+*/
