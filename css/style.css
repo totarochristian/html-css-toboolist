@@ -81,6 +81,7 @@ main{
     margin: 50px auto;
     background-color: #fffeff;
     border-radius: 8px;
+    padding-bottom: 40px;
 }
 /* Nav bar */
 .divContainer nav{
@@ -104,8 +105,39 @@ main{
 /* General section */
 .divSections details{
     padding: 20px 75px 10px 75px;
+    margin: 20px 0;
 }
 .divSections details summary{
     font-weight: 700;
     font-size: 1.1em;
+}
+.divSections details ul{
+    list-style-type: none;
+}
+.divSections details li{
+    margin: 10px 0;
+}
+.divSections text{
+    font-size: 1em;
+}
+.divSections .check{
+    color: #68bea9;
+    border: 1px solid #68bea9;
+    border-radius: 50%;
+    padding: 5px 8px;
+    font-size: 0.6em;
+    margin-right: 5px;
+}
+.divSections .cross{
+    color: #e42a2a;
+    border: 1px solid #e42a2a;
+    border-radius: 50%;
+    padding: 5px 8px;
+    font-size: 0.6em;
+    margin-right: 5px;
+}
+.tag{
+    border-radius: 15px;
+    padding: 7px 15px;
+    font-size: 0.6em;
 }
