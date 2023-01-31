@@ -122,21 +122,20 @@ main{
 .divSections text{
     font-size: 1em;
 }
-.divSections .check{
-    color: #68bea9;
-    border: 1px solid #68bea9;
+.divSections .check, .divSections .cross{
     border-radius: 50%;
     padding: 5px 8px;
     font-size: 0.6em;
     margin-right: 5px;
+    font-weight: 700;
+}
+.divSections .check{
+    color: #68bea9;
+    border: 2px solid #68bea9;
 }
 .divSections .cross{
     color: #e42a2a;
-    border: 1px solid #e42a2a;
-    border-radius: 50%;
-    padding: 5px 8px;
-    font-size: 0.6em;
-    margin-right: 5px;
+    border: 2px solid #e42a2a;
 }
 .tag{
     border-radius: 15px;
