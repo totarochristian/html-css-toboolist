@@ -75,20 +75,18 @@ main{
     vertical-align: middle;
 }
 
-/* Container main sections */
+/* General container main sections settings*/
 .divContainer{
     width: 55%;
     margin: 50px auto;
     background-color: #fffeff;
     border-radius: 8px;
 }
+/* Nav bar */
 .divContainer nav{
     width: 100%;
     padding: 20px 75px 10px 75px;
     border-bottom: 3px solid #f7f8fb;
-}
-.divSections{
-    height: 100px;
 }
 .divContainer nav button, .divContainer nav input[type="text"]{
     box-sizing: content-box;
@@ -102,4 +100,12 @@ main{
 .divContainer nav input[type="text"]{
     height: 25px;
     border: 2px solid lightgrey;
+}
+/* General section */
+.divSections details{
+    padding: 20px 75px 10px 75px;
+}
+.divSections details summary{
+    font-weight: 700;
+    font-size: 1.1em;
 }
