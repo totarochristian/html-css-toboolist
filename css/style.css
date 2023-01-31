@@ -81,13 +81,22 @@ main{
     height: 28px;
     text-align: center;
     padding: 4px 10px 4px 10px;
-    border: 0;
     font-size: 0.7em;
     border-radius: 5px;
+}
+.divContainer nav button{
+    border: 0;
+    width: 70px;
+    font-weight: 700;
 }
 .divContainer nav input[type="text"]{
     height: 25px;
     border: 2px solid lightgrey;
+    width: 85px;
+}
+.divContainer nav input[type="text"]::placeholder{
+    color: lightgrey;
+    font-weight: 700;
 }
 
 /* General sections detail style*/
